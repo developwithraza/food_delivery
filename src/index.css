@@ -1,0 +1,38 @@
+:root{
+  --food_primary: #fc8019;
+  --food_secondry: #e9ecee;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--food_primary); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+
+@media only screen and (max-width: 460px) {
+  .search_bar {
+    display: none !important;
+    flex-wrap: wrap !important;
+  }
+  .login_setion{
+    flex-wrap: wrap;
+  }
+  .popular_dish_list{
+    flex-wrap:wrap !important;
+  }
+  .navbars{
+    flex-wrap: wrap !important;
+  }
+}

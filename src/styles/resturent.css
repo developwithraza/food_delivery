@@ -1,0 +1,80 @@
+.resturent_info{
+    width: 70%;
+}
+.resturent_section{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.resturent_title{
+    display: flex;
+    justify-content: space-between;
+}
+.resturent_name p:first-child{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.list_fo_menu{
+    width: 100%;
+}
+.item_list{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.food_list{
+    display: flex;
+    justify-content: space-between;
+}
+.item_list .ant-collapse-header .ant-collapse-header-text {
+    font-size: 1.2rem;
+    font-weight: 600
+}
+.food_info p:first-child{
+    font-weight: 600;
+}
+.add_btn img{
+    width: 10rem;
+    /* height: 4rem; */
+    border-radius: 8px;
+}
+.add_btn{
+    display: flex;
+    flex-direction: column;
+}
+.add_btn button{
+    background-color: var(--food_primary);
+    margin-top: .5rem;
+}
+.resturentRating p{
+    color: white;
+    background-color: green;
+    padding:  0 .5rem;
+}
+.food_info img{
+    width: 1rem;
+}
+.switch_veg{
+    margin-bottom: 1rem;
+}
+.veg_item {
+    width: 1rem;
+}
+.food_rate{
+    background-color: green;
+    width: fit-content;
+    padding: 0 .5rem ;
+    color: white;
+}
+.time_duration{
+    background-color: var(--food_secondry);
+    display: flex;
+    justify-content: space-around;
+    padding: .5rem 0;
+    color:var(--food_primary);
+    margin-bottom: 1rem;
+}
+.time_duration p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}

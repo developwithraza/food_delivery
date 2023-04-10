@@ -1,0 +1,228 @@
+.account_section .card .card-body{
+    display: flex;
+    padding: 0 !important;
+    margin-top: -1.2rem
+}
+.account_section .card .card-header{
+    background-color: var(--food_primary);
+    color: white;
+}
+.profile_Info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.account_section {
+    padding: 2rem;
+}
+.sidebar{
+    flex: 2;
+    background-color: var(--food_primary);
+    min-height: 80vh;
+    overflow: hidden;
+}
+.accountContent{
+    flex: 6;
+}
+.account_section.card{
+    border: 1px solid var(--food_primary);
+}
+.account_section .card .ant-tabs-nav{
+    background-color: var(--food_primary);
+    border-radius: 4px 0 0 4px;
+}
+
+
+.ant-tabs-tab-btn{
+    /* color: whitesmoke; */
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.ant-tabs-tab .ant-tabs-tab-active {
+    background-color: whitesmoke;
+}
+.ant-tabs-left >.ant-tabs-nav .ant-tabs-tab-active{
+    background-color: whitesmoke;
+}
+.orders{
+display: flex;
+}
+.order_item{
+    width: 10rem;
+    height: 6rem;
+    background-color: red;
+    margin: 2rem;
+}
+.page_content{
+    padding: 2rem;
+    width: 100%;
+}
+.profile_details{
+    display: flex;
+}
+.edit_profile{
+    margin-left: .5rem;
+}
+.address_title p{
+    font-size: 1.2rem;
+    font-weight: 600
+}
+.save_Address_lists{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    border: 1px solid lightgray;
+    padding: .5rem 1rem;
+}
+.addres_icons{
+    margin-right: .5rem;
+    color: var(--food_primary);
+}
+.order_list{
+    height: 70vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.active_order p, .past_order p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.deliver_icon img{
+    width: 1rem;
+}
+.order_item_info{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: .5rem;
+
+}
+.save_adderss_action{
+    display: flex;
+    justify-content: space-evenly;
+}
+.save_adderss_action button{
+    color: var(--food_primary);
+}
+.order_item_info img{
+    width: 2rem;
+    height: 2rem;
+}
+.total_paid_order p{
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+}
+.total_paid_order{
+    display: flex;
+    justify-content: space-around;
+}
+.resturent_infos_image img{
+    width: 6rem;
+    border-radius: 8px;
+    margin-right: .5rem;
+}
+.resturent_infos{
+    display: flex;
+    align-items: center;
+
+}
+.order_status_details p{
+    background-color: var(--food_secondry);
+    padding: 0 .5rem;
+    color: green;
+    font-size: 1rem;
+}
+.your_order_items p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.your_order_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.your_item_list_info img{
+    width: 1rem;
+}
+.item_total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order_bill_details{
+    margin-top: 1rem;
+    background-color: #f7822221;
+    padding: .5rem;
+}
+.item_total_coupon{
+    display: flex;
+    justify-content: space-between;
+
+}
+.item_total_coupon p{
+    color: rgb(12, 197, 12);
+}
+.order_details_lsit_show{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    margin-bottom: .5rem;
+    padding: .5rem;
+}
+.order_show_titles p{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.order_show_titles{
+    margin-bottom: 1rem;
+}
+.menu_cons{
+    font-size: 1.2rem;
+}
+.type_support{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+.customer_support p:first-child{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.support_item{
+    background-color: #fc7f1967;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.support_icons{
+    font-size: 4rem;
+    background-color: white;
+    color: var(--food_primary);
+    border-radius: 50%;
+    padding: 1rem;
+    margin-bottom: .5rem;
+}
+.support_item p{
+    color: black;
+    font-size: 1.2rem;
+}
+.order_details_lsit_show p:first-child{
+    font-weight: 600;
+}
+
+.rating_order_details{
+    background-color: green;
+    color: white;
+    padding:  0 .5rem;
+    width: fit-content;
+}
+.resturent_infos_data p:first-child{
+        font-size: 1.2rem;
+        font-weight: 600;
+}

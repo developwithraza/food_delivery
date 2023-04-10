@@ -1,0 +1,75 @@
+.sidebarMenu{
+    width: 100%;
+    height: 78vh; 
+   
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    color: white;
+    background-color: var(--food_primary);
+    text-decoration: unset;
+    font-size: 1rem;
+    border-radius: 10px ;
+   
+}
+.logout_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: .5rem;
+}
+
+
+li{
+    padding-left: 0;
+}
+.hide_menu{
+    display: none;
+}
+
+
+
+.sideItemTitle{
+    margin-right: 1rem;
+}
+/* .sideItem{
+    font-size: 16px;
+} */
+
+.ant-menu .ant-menu-item{
+    border-radius: 0;
+}
+a{
+    text-decoration: none;
+
+}
+.menu_cons{
+    margin-right: 1rem;
+}
+.menu_titles p{
+    color: var(--food_primary);
+    padding:  2rem ;
+    padding-bottom: .5rem;
+   
+}
+.side_submenu{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(145, 144, 144);
+}
+.ant-menu-title-content a{
+    font-size: 1rem;
+}
+ .ant-menu-submenu-selected >.ant-menu-submenu-title {
+    background-color: var(--food_primary);
+    color: white !important;
+}
+.ant-menu-submenu-selected >.ant-menu-submenu-title:hover {
+        color: var(--food_primary) !important;
+}
+.logout_btn button{
+    background-color: transparent;
+    border-color: var(--food_primary);
+    color: var(--food_primary);
+}
+
+

@@ -1,0 +1,175 @@
+.toggle_icon {
+  color: white;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+.empty_cart img{
+  width: 15rem;
+}
+.navbar_sections {
+  padding: 0.5rem 1.5rem;
+  background-color: var(--food_primary);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.search_bar {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.178);
+  /* box-shadow: 0 8px 32px 0 rgba(103, 107, 155, 0.37); */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+}
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.178);
+  /* box-shadow: 0 8px 32px 0 rgba(103, 107, 155, 0.37); */
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: none;
+}
+.dropdown-toggle :hover {
+  background-color: transparent;
+}
+
+.navbars {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search_bar .ant-select {
+  width: 400px;
+}
+.search_bar .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  background-color: transparent;
+  border-style: none;
+  color: white;
+  outline-style: none;
+}
+.search_bar button {
+  background-color: transparent;
+  color: whitesmoke;
+  border-style: none;
+}
+.search_bar .ant-input {
+  background-color: transparent;
+  border-style: none;
+  color: white;
+}
+.search_bar .ant-select-selection-placeholder {
+  color: #f0f0f0;
+}
+.search_bar .ant-input-placeholder {
+  color: #f0f0f0;
+}
+.dropDown_options{
+  padding: 1rem;
+}
+.dropDown_options a {
+  color: var(--food_primary);
+}
+.menu_item_icon {
+  margin-top: -0.5rem;
+  margin-right: 0.5rem;
+}
+
+.dropdown-item:hover {
+  background-color: #eee;
+}
+
+
+.dropdown button:hover {
+  background-color: transparent;
+}
+
+.login_setion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_setion button {
+  color: whitesmoke;
+  font-weight: 600;
+}
+.navbar_logo{
+  display: flex;
+}
+.navbar_logo img {
+  cursor: pointer;
+}
+.navbar_logo button {
+  color: whitesmoke;
+  background-color: transparent;
+}
+.cart {
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+.cart_item {
+  margin-left: 1rem;
+}
+.add_cart_img img {
+  width: 3rem;
+  height: 3rem;
+  margin-right: .5rem;
+}
+.add_cart_img {
+  display: flex;
+  align-items: center;
+}
+
+.userMenu_bar {
+  width: 100%;
+}
+.item_lists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add_cart_title p {
+  margin-bottom: 0;
+  margin: 0 1rem;
+}
+.show_current_locaton {
+  text-align: center;
+}
+.myLocation {
+  margin-right: 0.5rem;
+  margin-top: -0.2rem;
+}
+.add_cart_title  {
+  display: flex;
+}
+.prise p {
+  margin-top: 0;
+}
+.prise {
+  display: flex;
+  justify-content: space-around;
+}
+.checkout_bnt  button{
+  background-color: var(--food_primary);
+  margin-top: 1rem;
+  text-align: center;
+}
+.totalAmount  {
+  margin-bottom: 0;
+  padding: 0.5rem 0;
+  color: whitesmoke;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.add_cart_title img{
+  width: 1.5rem;
+  
+}
+.totalAmounts{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem ;
+}

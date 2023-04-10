@@ -1,0 +1,162 @@
+.main{
+    width: 100%;
+    height: 100vh;
+
+}
+.content_section{
+    background-color: white;
+    border-radius:50px 50px 0 0;
+    width: 100%;
+    /* min-height: 80vh; */
+    display: flex;
+
+}
+.content_sections{
+    background-color: var(--food_secondry);
+    border-radius:50px 50px 0 0;
+    width: 100%;
+
+
+
+}
+
+.slide_imgs img{
+    width: 100%;
+    height: 40vh;
+    border-radius: 8px;
+}
+.sidebar_section{
+    background-color: white;
+    border-radius:50px 50px 0 0;
+    position: sticky;
+    top: 1rem;
+    border-radius: 60px 0 0 0;
+    /* padding-top: 2rem; */
+    overflow: hidden;
+    /* width: 100%; */
+    height: 100%;
+}
+.main_content{
+    flex: 6;
+    padding: 3rem 0;
+}
+.navbar_section{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.banner_slider .card{
+    margin: .5rem;
+}
+.caregory_all{
+    text-align: center;
+}
+.caregory_all .card{
+    background-color: rgba(252, 127, 25, 0.219);
+
+}
+.caregory_all{
+    margin-bottom: 1rem;
+}
+
+.slider_section .slick-dots li button:before {
+  color: var(--food_primary);
+}
+.catSlider a{
+    color: var(--food_primary);
+}
+.populer_title{
+    display: flex;
+    align-items: center;
+    padding:   .5rem;
+}
+.populer_title p{
+    margin-left: .5rem;
+    margin-bottom: 0;
+}
+.product_card  .ant-card-body{
+    padding: 1rem;
+}
+.product_card img{
+    width: 100%;
+    height: 30vh;
+}
+
+#resturent{
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.all_food_title p{
+    font-weight: 600;
+}
+.all_food{
+    margin-top: 1rem;
+}
+.product_card{
+    margin-bottom: 1rem;
+}
+.product_card button{
+    background-color: var(--food_primary);
+}
+
+
+.cart_action_btn .ant-radio-button-wrapper{
+    background-color: var(--food_primary);
+    color: whitesmoke;
+    border-style: none;
+}
+
+.category_slider_section .slick-arrow{
+    background-color: var(--food_primary);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+.category_slider_section button:first-child{
+    margin-left: .3rem;
+    z-index: 1;
+}
+.all_food .ant-tabs .ant-tabs-nav .ant-tabs-nav-wrap {
+        justify-content: end !important;
+}
+.all_food .ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: var(--food_primary);
+    border-bottom: var(--food_primary) 
+}
+.card_footer{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.card_footer p:first-child{
+    background-color: green;
+    padding: 0 .5rem;
+    color: white;
+}
+
+.search_all{
+    width: 60%;
+}
+.search_input{
+    margin-top: 2rem;
+}
+.popular_dish_list{
+    width: 100%;
+    display: flex;
+}
+.popular_dishes{
+    margin-top: 4rem;
+}
+.popular_dishes p:first-child{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.popular_item img{
+    width: 100%;
+}
+.popular_item {
+    margin-top: 1rem;
+    text-align: center;
+}

@@ -1,0 +1,145 @@
+.cart_details_data {
+  background-color: white;
+  padding: 1rem 1.5rem;
+}
+.cart_data_img img {
+  width: 4rem;
+  height: 3rem;
+  margin-right: 0.5rem;
+}
+.card_details {
+  padding: 1rem;
+}
+.content_sections {
+  min-height: 100vh;
+}
+.delivery_location {
+  background-color: white;
+  padding: 1.5rem;
+  position: relative;
+}
+.resturent_details {
+  display: flex;
+}
+.pay_now {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+.pay_now p {
+  font-weight: 600;
+}
+.cart_data_info {
+  margin-top: 1rem;
+  height: 50vh;
+  overflow-y: scroll;
+}
+.delivery_charge .ant-divider-dashed,
+.total_items .ant-divider-dashed {
+  width: 60%;
+}
+.cart_data_item {
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #eee;
+  margin: 0.5rem 0;
+}
+.cart_action_btn {
+  border: 1px solid var(--food_primary);
+  margin: 0.5rem;
+}
+.tax_gov,
+.delivery_charge,
+.total_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.current_Address {
+  display: flex;
+  flex-direction: column;
+}
+.save_addres {
+  border: 1px dashed var(--food_primary);
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+.address_item p {
+  font-size: 0.8rem;
+  color: gray;
+}
+.address_items p {
+  font-size: 0.8rem;
+  color: gray;
+}
+.save_addres {
+  display: flex;
+}
+.loc_Icon {
+  color: var(--food_primary);
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+}
+.current_Address p:first-child {
+  font-weight: 600;
+}
+.address_list {
+  margin-top: 1rem;
+}
+.address_item button {
+  background-color: green;
+  margin-top: 0.5rem;
+  border-color: green;
+}
+
+.address_items button {
+  background-color: transparent;
+  margin-top: 0.5rem;
+  border-color: green;
+}
+.current_location_icon {
+  background-color: var(--food_primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  top: 5%;
+  left: -3%;
+}
+.payment_option{
+    display: flex;
+    justify-content: space-evenly;
+}
+.payment_option button{
+    background-color: var(--food_primary);
+    width: 60%;
+    color: white;
+}
+
+#Add_Location button{
+  background-color: var(--food_primary);
+  border-color: var(--food_primary);
+  color: white;
+}
+.marker img{
+  width: 2rem;
+}
+.marker{
+  width: 5rem;
+  text-align: center;
+  position: relative;
+
+}
+.marker p{
+  position: absolute;
+  top: -50%;
+  background-color: var(--food_primary);
+  color: white;
+  padding: 0 .2rem;
+}
